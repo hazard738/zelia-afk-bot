@@ -6,6 +6,7 @@ function launchBot() {
         port: 19013,
         username: 'zelia',
         auth: 'offline'
+        version: '1.21.11'
     });
 
     bot.on('spawn', () => {
