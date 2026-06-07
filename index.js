@@ -5,10 +5,9 @@ function launchBot() {
         host: 'moonvalesmp.xyz',
         port: 19013,
         username: 'zelia',
-        auth: 'offline'
-        version: '1.21.11'
+        auth: 'offline',
+        version: '1.21.1' // <-- Add this line to enforce the server version matching
     });
-
     bot.on('spawn', () => {
         console.log('Success: zelia has successfully spawned into moonvalesmp.xyz!');
         
